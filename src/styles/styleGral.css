@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{                                          
+    --fuente-principal: "Public Sans", sans-serif;   /*Declarar la letra y colores principales*/
+    --Color-principal: #eff3ff;
+    --Color-secundario: #6989f9;
+}
+
+h1{
+    margin-left: 66vw;
+    color: var(--Color-secundario);
+}
+
+main{
+    display: flex;
+}
+
+body{
+    background-color: var(--Color-principal);
+    font-family: var(--fuente-principal);
+}
+
+.container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    width: 50%;
+    align-items: center
+}
+
+.icon-villasalud{
+    width: 25vw;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;   
+}
+
+.campos{
+    display: flex;
+    margin-top: 5vh;
+    gap: 10vh;
+}
+
+input{
+    width: 18vw;
+    background-color: white;
+    color: var(--Color-secundario);
+    font-size: 5vh;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+#usuario{
+    margin-left: 5.6vw;
+}
+
+#label-login{
+    font-size: 5vh;
+    color: var(--Color-principal);
+    background-color: var(--Color-secundario);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.boton{
+    margin-top: 15vh;
+    margin-left: 25vw;
+}
+
+.boton-ingresar{
+    width: 11.2vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: var(--Color-secundario);
+    color: var(--Color-principal);
+    font-size: 3vh;
+    padding: 10px;
+}
+
+.container-right{
+    width: 50%;
+    text-align: center;
+}
+
+.img-dentista{
+    width: 35vw;
+    border-radius: 25px;
+}
+
+h2{
+    color: var(--Color-secundario);
+    margin-left: 65vw;
+}
