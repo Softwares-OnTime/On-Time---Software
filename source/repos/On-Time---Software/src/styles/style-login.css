@@ -1,0 +1,98 @@
+/*Estilo de ventana login*/
+
+main{
+    display: flex;
+}
+
+.container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    width: 50%;
+    align-items: center
+}
+
+.icon-villasalud{
+    width: 25vw;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;   
+}
+
+.campos{
+    display: flex;
+    margin-top: 5vh;
+    gap: 10vh;
+}
+
+
+#usuario{
+    margin-left: 5.6vw;
+}
+
+#label-login{
+    font-size: 5vh;
+    color: var(--Color-principal);
+    background-color: var(--Color-secundario);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.boton{
+    margin-top: 7vh;
+    margin-left: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-ingresar{
+    width: 11.2vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: var(--Color-secundario);
+    color: var(--Color-principal);
+    font-size: 3vh;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+#link-registrar{
+    font-size: 3vh;
+    margin-left: 2.7vw;
+    margin-top: 6vh;
+}
+
+/* Efecto al pasar el ratón sobre el enlace */
+#link-registrar:hover {
+    color: #45a049;  /* Cambia el color del texto */
+    transform: scale(1.1);  /* Aumento del tamaño */
+    transition: all 0.3s ease;  /* Transición suave */
+}
+
+/* Efecto al hacer clic en el enlace */
+#link-registrar:active {
+    color: #388e3c;  /* Cambia el color del texto al hacer clic */
+    transform: scale(0.95);  /* Reducir el tamaño ligeramente */
+}
+
+.container-right{
+    width: 50%;
+    text-align: center;
+}
+
+.img-dentista{
+    width: 35vw;
+    border-radius: 25px;
+}
+
+h2{
+    color: var(--Color-secundario);
+    margin-left: 65vw;
+}

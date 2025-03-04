@@ -1,0 +1,55 @@
+/*Estilo del registro*/
+
+main{
+    justify-self: center;
+    justify-content: center;
+    padding: 10vh;
+    width: 90%;
+    margin-top: -2vh;
+}
+
+#nombre-telefono{
+    margin-bottom: 5vh;
+    display: flex;
+    gap: 1.5vw;
+}
+
+#nombre{
+    width: 34vw;
+}
+
+#telefono{
+    margin-left: 4vw;
+}
+
+#fecha-especialidad{
+    margin-bottom: 5vh;
+    display: flex;
+    gap: 1.5vw;
+}
+
+#email-registro{
+    margin-bottom: 5vh;
+    display: flex;
+    gap: 1.5vw;
+}
+
+#email{
+    width: 37vw;
+}
+
+#usuario-contrasena{
+    display: flex;
+    gap: 1.5vw;
+}
+
+#usuario{
+    margin-right: 15.5vw;
+}
+
+.botones{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    margin-top: 10vh;
+}
