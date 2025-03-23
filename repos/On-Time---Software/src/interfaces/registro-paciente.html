@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro pacientes</title>
+    <link rel="stylesheet" href="/On-Time---Software/src/styles/style-general.css">
+    <link rel="stylesheet" href="/On-Time---Software/src/styles/style-registro-paciente.css">
+</head>
+<body>
+    <header>
+        <img class="img-paciente" src="/On-Time---Software/src/resources/user.svg" alt="foto-paciente">
+        <h1>Perfil del paciente</h1>
+        <div class="botones">
+            <button>Registrar</button>
+            <button>Salir</button>
+        </div>
+    </header>
+    <main>
+        <div class="main-izquierdo">
+            <div class="datos">
+                <label>Nombre: </label>
+                <input type="text" id="input-name">
+            </div>
+            <div class="datos"> 
+                <label>Fecha: </label>
+                <input type="date" id="input-date">
+            </div>
+            <div class="datos">
+                <label>Diagnostico: </label>
+                <textarea id="diagnostico"></textarea>
+            </div>
+        </div>
+        <div class="main-derecho">
+            <div class="datos">
+                <label>Edad: </label>
+                <input type="text" id="input-edad">
+            </div>
+            <img id="dientes" src="/On-Time---Software/src/resources/Dientes.png" alt="dientes-img">
+            <div class="datos">
+                <label>Medico: </label>
+                <input type="text" id="input-medico">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

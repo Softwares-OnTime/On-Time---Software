@@ -1,0 +1,91 @@
+/*Estilos para la ventana de registro pacientes*/
+header{
+    display: flex;
+    justify-content: start;
+    gap: 15vw;
+    margin-top: 5vh;
+}
+
+.botones{
+    height: 10vh;
+    align-self: center;
+}
+
+.img-paciente{
+    margin-left: 7vw;
+    width: 8vw;
+    border-radius: 70px;
+}
+
+h1{
+    color: black;
+    font-size: 3vw;
+    align-self: center;
+}
+label{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-weight: bold;
+}
+input{
+    background-color: var(--Color-secundario);
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 8.4vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-izquierdo{
+    width: 60%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    padding: 30px;
+}
+
+.datos{
+    margin-bottom: 6vh;
+    display: flex;
+    align-items: start;
+}
+
+#input-name{
+    width: 45vw;
+}
+
+#input-date{
+    width: 20vw;
+    height: 8.7vh;
+}
+
+#diagnostico{
+    height: 25vh;
+    width: 41vw;
+    font-size: 25px;
+    color: white;
+    background-color: var(--Color-secundario);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-style: none;
+    resize: none;
+}
+
+.main-derecho{
+    width: 40%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+#dientes{
+    width: 25vw;
+    margin-top: -3vh;
+}
