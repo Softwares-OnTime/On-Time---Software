@@ -1,0 +1,73 @@
+/*Diseño general de las paginas*/
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{                                          
+    --fuente-principal: "Public Sans", sans-serif;   /*Declarar la letra y colores principales*/
+    --Color-principal: #eff3ff;
+    --Color-secundario: #6989f9;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    color: var(--Color-secundario);
+    text-align: center;
+}
+
+body{
+    background-color: var(--Color-principal);
+    font-family: var(--fuente-principal);
+}
+
+label{
+    font-size: 5vh;
+    color: var(--Color-principal);
+    background-color: var(--Color-secundario);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    width: 18vw;
+    height: 8vh;
+    background-color: white;
+    color: var(--Color-secundario);
+    font-size: 5vh;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+button{
+    width: 11.2vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: var(--Color-secundario);
+    color: var(--Color-principal);
+    font-size: 3vh;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+button:hover {
+    background-color: #45a049; /* Cambio de color de fondo */
+    transform: scale(1.1);      /* Aumento del tamaño */
+}
+
+/* Efecto al hacer clic en el botón */
+button:active {
+    background-color: #388e3c; /* Color de fondo más oscuro al hacer clic */
+    transform: scale(0.95);     /* Reducir el tamaño ligeramente */
+}
+
+footer{
+    color: grey;
+    text-align: center;
+    font-size: 12px;
+}

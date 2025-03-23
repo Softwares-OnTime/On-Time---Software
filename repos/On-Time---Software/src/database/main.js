@@ -1,0 +1,1 @@
+const connection = require('./src/database/cadena_conexion');

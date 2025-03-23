@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/On-Time---Software/src/styles/style-general.css">
+    <link rel="stylesheet" href="/On-Time---Software/src/styles/style-registro.css">
+    <title>Registrar</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo-registro">Nuevo Registro</h1>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <div id="nombre-telefono">
+                <label id="label-nombre" for="nombre">NOMBRE:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label id="label-telefono" for="telefono">TELEFONO:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div id="fecha-especialidad">
+                <label id="label-fecha-nac" for="fecha-nac">FECHA DE NACIMIENTO:</label>
+                <input type="date" id="fecha-nac" name="fecha-nac" required>
+                <label id="label-especialidad" for="especialidad">ESPECIALIDAD:</label>
+                <input type="text" id="especialidad" name="especialidad" required>
+            </div>
+            <div id="email-registro">
+                <label id="label-email" for="usuario">EMAIL:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div id="usuario-contrasena">
+                <label id="label-usuario" for="usuario">USUARIO:</label>
+                <input type="text" id="usuario" name="usuario" required>
+                <label id="label-contrasena" for="contrasena">CONTRASEÑA:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+        <div class="botones">
+            <button class="boton-registrar" type="submit">REGISTRAR</button>
+            <button class="boton-regresar" type="submit">REGRESAR</button>
+        </div>
+        </form>
+    </main>
+</body>
+</html>

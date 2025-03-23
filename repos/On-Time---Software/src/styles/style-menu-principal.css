@@ -1,0 +1,52 @@
+/*Estilos menu principal*/
+header{
+display: flex;
+gap: 30vw;
+}
+
+#titulo-menu{
+   margin-right: 15vh;
+}
+
+.logotipo{
+    width: 20vw;    /*Se le da tamaño a la imagen*/
+}
+
+.container-principal{
+    display: flex;                 
+    justify-content: space-between;
+}
+.Dentista2{
+    width: 35vw;                /*Propiedades de la imagen*/
+    margin: 90px 0px 0px 30px;
+ }
+ .izquierdo{                /*Acomodar el logotipo y los botones del lado izquierdo*/
+    justify-content: center;
+    margin-left: 5vw;
+    width: 50%;
+ }
+ .derecho{                   /*Acomodar la imagen del lado derecho*/
+    width: 50%;
+    margin-top: -15vh;
+    justify-content: right;
+ }
+ 
+ .botones{                  /*Acomodar los botones en columna*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5vh;
+    align-items: center;
+ }
+
+ .button{
+    width: 20vw;
+    height: 10vh;
+ }
+
+ footer{
+   margin-top: 7vh;
+ }
+ #marca-ontime{
+   margin-left:45vw ;
+}
