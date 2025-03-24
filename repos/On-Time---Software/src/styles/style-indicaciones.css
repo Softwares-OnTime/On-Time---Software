@@ -46,12 +46,37 @@ main{
     width: 60%;
 }
 
-.parrafo{
+/*.parrafo{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-left: 20vh;
+}*/
+
+#indicaciones{
+    background-color: var(--Color-secundario);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+    resize: none;
+    margin-left: 8vw;
+    margin-top: 5vh;
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    font-size:  1.5vw;
+}
+
+
+
+button{
+    background-color: var(--Color-principal);
+    color: black;
+}
+
+textarea:focus{
+    outline: none;
 }
 
 #diente{
@@ -68,4 +93,14 @@ main{
     justify-self: end;
     margin-top: 30vh;
     margin-right: 5vw;
+}
+
+.img-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-button>button{
+    margin-left: 10vw;
 }

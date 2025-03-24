@@ -1,0 +1,60 @@
+/*Estilos de la ventana de simulación*/
+
+body{
+    background-color: var(--Color-secundario);
+}
+h1{
+    color: black;
+    justify-self: center;
+    font-size: 3vw;
+}
+main{
+    background-color: var(--Color-principal);
+    width: 90vw;
+    height: 85vh;
+    border-radius: 15px;
+    justify-self: center;
+}
+.container-principal{
+    display: flex;
+    flex-direction: row;
+}
+.izquierda{
+    width: 60%;
+    height: 65vh;
+    border-style: solid;
+    border-color: var(--Color-secundario);
+    border-radius: 5px;
+    margin-left: 5vw;
+}
+h2{
+    justify-self: center;
+}
+.derecha{
+    width: 40%;
+    height: 65vh;
+    margin-top: -9vh;
+    margin-left: 1vw;
+}
+
+.botones {
+    display: grid; /* Activamos el grid */
+    grid-template-columns: repeat(2, 1fr); /* Creamos dos columnas */
+    gap: 10px; /* Espacio entre los botones */
+    list-style-type: none; /* Eliminamos los puntos de lista */
+    padding: 0; /* Eliminamos el padding predeterminado */
+}
+  
+.botones li {
+    margin: 0; /* Eliminamos el margen por defecto de los li */
+}
+  
+.botones button {
+    width: 90%; /* Los botones ocupan todo el ancho de la celda */
+    padding: 10px; /* Espaciado interno de los botones */
+    font-size: 16px; /* Tamaño de fuente de los botones */
+}
+
+button{
+    height: 8vh;
+}
